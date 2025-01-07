@@ -17,7 +17,7 @@
 - フロントエンド: React, TypeScript
 - AI: OpenAI WebApp
 
-# インストール方法
+## インストール方法
 
 1. [ダウンロードリンク] から拡張機能をダウンロードします
 2. Chromeを開き、chrome://extensions/ にアクセスします。
