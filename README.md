@@ -1,6 +1,33 @@
-# my-crx
+# OmniBoxExtension
+
+このChrome拡張機能は、Omnibox（Chromeのアドレスバー）を使って、ChatGPTからの回答を簡単にコピーして貼り付けることができるツールです。作業効率を高めるため、素早くChatGPTの回答にアクセスし、他のアプリケーションやウェブページに貼り付けることができます。
 
 > a chrome extension tools built with Vite + React, and Manifest v3
+
+## デモ
+デモを見るには[こちら](https://your-demo-link.com)をクリックしてください。
+![スクリーンショット](path/to/screenshot.png)
+
+## 機能
+- Omnibox統合: Chromeのアドレスバーから直接ChatGPTの回答にアクセスできます。
+- 即座にコピー＆ペースト: コマンド一つで回答をクリップボードにコピー。
+- シームレスな操作体験: 作業中のタブを切り替えたり、別のウィンドウを開いたりすることなく、すぐに回答を取得できます。
+
+## 使用技術
+- フロントエンド: React, TypeScript
+- AI: OpenAI WebApp
+
+# インストール方法
+
+1. [ダウンロードリンク] から拡張機能をダウンロードします
+2. Chromeを開き、chrome://extensions/ にアクセスします。
+3. 開発者モードを有効にします。
+4. パッケージ化されていない拡張機能を読み込むをクリックし、拡張機能のフォルダを選択します。
+
+## 使い方
+1. Omnibox（アドレスバー）に拡張機能のキーワード（例: `c クエリ`）と共に質問を入力します。
+2. Enterキーを押すと、ChatGPTから回答を取得し、その回答をクリップボードにコピーします。
+3. 必要な場所にその回答を貼り付けます。
 
 ## Installing
 
@@ -13,7 +40,7 @@
 run the command
 
 ```shell
-$ cd my-crx
+$ cd omniBoxExtension
 
 $ npm run dev
 ```
@@ -21,7 +48,7 @@ $ npm run dev
 ### Chrome Extension Developer Mode
 
 1. set your Chrome browser 'Developer mode' up
-2. click 'Load unpacked', and select `my-crx/build` folder
+2. click 'Load unpacked', and select `omniBoxExtension/build` folder
 
 ### Nomal FrontEnd Developer Mode
 
