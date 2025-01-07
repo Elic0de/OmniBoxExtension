@@ -1,0 +1,50 @@
+{
+  "name": "omnibox-extension",
+  "displayName": "OmniBoxExtension",
+  "version": "0.0.0",
+  "author": "no one",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "react",
+    "vite",
+    "create-chrome-ext"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "fmt": "prettier --write '**/*.{tsx,ts,json,css,scss,md}'",
+    "zip": "npm run build && node src/zip.js"
+  },
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "eventsource-parser": "^1.1.1",
+    "js-sha3": "^0.9.3",
+    "lodash-es": "^4.17.21",
+    "nanoid": "^5.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "uuid": "^11.0.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.19",
+    "@types/chrome": "^0.0.246",
+    "@types/lodash-es": "^4.17.12",
+    "@types/react": "^18.2.28",
+    "@types/react-dom": "^18.2.13",
+    "@vitejs/plugin-react": "^4.1.0",
+    "gulp": "^4.0.2",
+    "gulp-zip": "^6.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^4.4.11"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
+}
