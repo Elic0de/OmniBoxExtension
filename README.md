@@ -4,10 +4,6 @@
 
 > a chrome extension tools built with Vite + React, and Manifest v3
 
-## デモ
-デモを見るには[こちら](https://your-demo-link.com)をクリックしてください。
-![スクリーンショット](path/to/screenshot.png)
-
 ## 機能
 - Omnibox統合: Chromeのアドレスバーから直接ChatGPTの回答にアクセスできます。
 - 即座にコピー＆ペースト: コマンド一つで回答をクリップボードにコピー。
